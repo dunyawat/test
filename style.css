@@ -1,0 +1,22 @@
+body{
+    background-color: #DEB887;
+}
+
+/*top chart */
+
+    .card{
+        position: relative;
+        display: block;
+        margin-bottom: 1.5rem;
+        background-color: cadetblue;
+    }
+
+
+
+/* footer */
+.semi-footer{
+  background-color: #100627;
+  color: #FFF;
+  
+}
+
