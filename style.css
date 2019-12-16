@@ -2,21 +2,32 @@ body{
     background-color: #DEB887;
 }
 
-/*top chart */
+.navbar-brand{
+    line-height: 1.4rem;
+    font-size: 14;
+    font-weight: bold;
+}
 
-    .card{
-        position: relative;
-        display: block;
-        margin-bottom: 1.5rem;
-        background-color: cadetblue;
-    }
-
+.card-4{
+    position: relative;
+    display: block;
+    background-color: cadetblue;
+    height: 580px;
+}
+.card{
+    position: relative;
+    display: block;
+    background-color: cadetblue;
+}
 
 
 /* footer */
 .semi-footer{
   background-color: #100627;
   color: #FFF;
-  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
