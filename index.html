@@ -21,74 +21,170 @@
     </header>
 
     <!-- nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #100627;">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" style="width: 548px; height: 30px;" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" style="width: 120px; height: 30px; line-height:0.5rem; color: white; font-size: 14px; background-color: #8c4bff;" type="submit">ค้นหา</button>
-          </form>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-          <ul class="navbar-nav mr-auto   ">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a> 
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-            </li>
-          </ul> 
+    <nav id='navbar' class="navbar navbar-expand-lg navbar-dark" style="background-color: #100627;">
+            <a class="navbar-brand" href="index.php">
+                <svg id="Component_10_1" data-name="Component 10 – 1" xmlns="http://www.w3.org/2000/svg" width="128.571" height="30" viewBox="0 0 128.571 30">
+                    <path id="Path_4208" data-name="Path 4208" d="M205.8,16.88V0h6.511V16.714c0,4.811,2.406,7.3,6.373,7.3s6.373-2.406,6.373-7.092V0h6.512V16.659c0,8.945-5.032,13.327-12.968,13.327S205.8,25.576,205.8,16.88Z" transform="translate(-177.348)" fill="#6b29e0"/>
+                    <path id="Path_4209" data-name="Path 4209" d="M412.3,25.327l3.8-4.535a13.374,13.374,0,0,0,8.723,3.539c2.627,0,4.217-1.037,4.217-2.751V21.5c0-1.631-1-2.461-5.889-3.705-5.889-1.493-9.677-3.124-9.677-8.917V8.793C413.475,3.5,417.733,0,423.692,0a16.93,16.93,0,0,1,10.853,3.705l-3.332,4.839c-2.585-1.8-5.129-2.876-7.59-2.876s-3.76,1.12-3.76,2.544v.083c0,1.922,1.258,2.544,6.3,3.829,5.931,1.548,9.263,3.664,9.263,8.751v.083c0,5.793-4.424,9.041-10.728,9.041A18.548,18.548,0,0,1,412.3,25.327Z" transform="translate(-355.3)" fill="#6b29e0"/>
+                    <g id="Group_346" data-name="Group 346">
+                      <rect id="Rectangle_1192" data-name="Rectangle 1192" width="6.608" height="9.594" transform="translate(0 20.406)" fill="#fe008a"/>
+                      <path id="Path_4210" data-name="Path 4210" d="M18.622,19.286a9.319,9.319,0,0,0,6.442-9.3V9.9a9.427,9.427,0,0,0-2.571-6.857C20.516,1.078,17.558,0,13.728,0H0V20.406H11.806L18.249,30h7.728Zm-.249-8.959c0,2.53-1.839,4.244-5.06,4.244H6.608V5.959h6.567c3.221,0,5.2,1.452,5.2,4.286Z" fill="#6b29e0"/>
+                    </g>
+                    <path id="Path_4211" data-name="Path 4211" d="M688.823,0V14.571H676.63V0h-6.608V14.558H657.8v5.848h12.221V30h6.608V20.406h12.193V30h6.608V0Z" transform="translate(-566.86)" fill="#6b29e0"/>
+                    <path id="Path_4212" data-name="Path 4212" d="M616.608,11.876V0H610V30h6.608V11.876Z" transform="translate(-525.668)" fill="#00dea5"/>
+                  </svg> 
+            </a>
+      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarkey" aria-controls="navbarkey" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarkey" >
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" style=" width: 548px; height: 30px;" type="search" placeholder="ค้นหาตามรายชื่อแบรนด์ / ค้นหาตามรุ่น / ค้นหาชื่อสีรุ่น..." aria-label="Search">
+                <button class="searchb btn btn-outline-success my-2 my-sm-0" style="margin-left: -8px; width: 120px; height: 30px; line-height:0.5rem; color: white; font-size: 14px; background-color: #8c4bff;" type="submit">ค้นหา</button>
+              </form>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarkey">
+                
+                <ul class="navbar-nav ml-auto text-center" >
+                <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.php">Contact</a>
+                </ul>
+                <div style=" text-align: center;">
+                <button class="btn btn-outline-success my-2 my-sm-0" style="width: 120px; height: 30px; line-height:0.5rem; color: white; font-size: 14px; background-color: #fe008a;" type="submit">ต้องการขาย</button>
+            </div>
+            </div>
         </div>
-        <button class="btn btn-outline-success my-2 my-sm-0" style="width: 120px; height: 30px; line-height:0.5rem; color: white; font-size: 14px; background-color: #fe008a;" type="submit">ต้องการขาย</button>
-      </nav>
+    </nav>
 
+
+   
       <!-- car -->
-    <div style="width: 1440px; height: 692px; background-color: purple; text-align: center;">
-        <h1 class="display-4  font-weight-bold">Roman Empire CFC</h1>
-        <p class="lead">ข่าวเชลซีเพื่อแฟนเชลซี</p>
-        <button class="btn btn-outline-success my-2 my-sm-0" style="width: 120px; height: 30px; line-height:0.5rem; color: white; font-size: 14px; background-color: #8c4bff;" type="submit">ค้นหา</button>
-        
-
+      <div style="margin-bottom: -15px;">
+          <div class="container-fluid">
+          <div class="row">
+         <div class="col-12 col-lg-12 col-md-12 col-sm-12"></div>
+            <div style="background-image: url(assets/image/Image1.jpg); width: 100%;
+            height: 692px;  background-size: cover; background-position: center; text-align: center;">
+              <h1 class="display-4  font-weight-bold" style="color:white; line-height: 45px; font-size: 48px;">THE VIRGIL ABLOH X NIKE <br>
+                AIR VAPORMAX ‘WHITE’
+            </h1>
+              <p class="lead" style="margin-top: 20px; color:white; font-size: ;">ไม่ต้องเข้าคิวจับสลาก ซื้อได้เลยวันนี้ที่รัชช</p>
+        <button class="btn btn-outline-success my-2 my-sm-0 " style="width: 190px; height: 40px; line-height:0.5rem; color: white; font-size: 14px; background: rgba(0,0,0,0.5);; border : 2px solid #FFFFFF;" type="submit">ซื้อเลย</button>
+            </div>
+          </div>
+      </div>
     </div>
-
+      
 
 
     <!--sdcds-->
-    <div>
+    <div style="margin-bottom: -15px;">
         <div class="card-body">
             <div class="row">
                 <div class="col-lg-4 col-md-4 p-1">
-                    <div class="card overflow-hidden" style="height: 133px;">
+                    <div class="card overflow-hidden" style="height: 150px; width: 100%;">
                         <div class="card-body">
                             <div class="card-block clearfix">
-                                <div class="media">...</div>
+                                <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <svg id="Group_2607" data-name="Group 2607" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103.289" height="93" viewBox="0 0 103.289 93">
+                                        <defs>
+                                          <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#6b29e0"/>
+                                            <stop offset="1" stop-color="#fe008a"/>
+                                          </linearGradient>
+                                        </defs>
+                                        <path id="Path_6068" data-name="Path 6068" d="M309.011,133.73l16.726.056h.009a2.015,2.015,0,0,0,0-4.03l-16.725-.057h-.006a2.015,2.015,0,0,0-.006,4.031Zm0,0" transform="translate(-245.067 -103.534)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6069" data-name="Path 6069" d="M312.042,93.815l7.868.024h.006a2.015,2.015,0,0,0,.006-4.031l-7.868-.023h-.006a2.015,2.015,0,0,0-.005,4.03Zm0,0" transform="translate(-247.487 -71.672)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6070" data-name="Path 6070" d="M390.991,89.939h-.006a2.011,2.011,0,0,0-.005,4.022h.207a2.011,2.011,0,0,0,.006-4.023Zm0,0" transform="translate(-310.503 -71.795)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6071" data-name="Path 6071" d="M372.018,54.03l4.027.012h.006a2.011,2.011,0,0,0,.006-4.022l-4.027-.012h-.006a2.011,2.011,0,0,0-.005,4.022Zm0,0" transform="translate(-295.367 -39.92)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6072" data-name="Path 6072" d="M312.138,53.85l4.027.013h.006a2.011,2.011,0,0,0,.006-4.023l-4.027-.012h-.006a2.011,2.011,0,0,0-.005,4.022Zm0,0" transform="translate(-247.567 -39.776)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6073" data-name="Path 6073" d="M99.254,81.256V78.089a11.741,11.741,0,0,0-8.38-11.295l-4.95-1.5S50.1,46.428,50.073,46.415A14.652,14.652,0,0,0,33.94,48.831c-.02.018-4.485,3.866-6.972,3.866H20.8a15.647,15.647,0,0,1-1.218-1.683c-1.46-2.191-3.544-5.317-7.207-6.281a62.984,62.984,0,0,1,2.776-10.8c1.819-4.97,4.97-10.821,9.868-11.658L33.383,39.18A2.018,2.018,0,0,0,35.192,40.3H89.167a2.016,2.016,0,0,0,2.017-2.015V2.015A2.016,2.016,0,0,0,89.167,0H35.192a2.017,2.017,0,0,0-1.809,1.123L24.936,18.211c-4.24.487-9.646,3.571-13.593,14.4A66.793,66.793,0,0,0,8.29,44.737H8.207a6.243,6.243,0,0,0-4.172,5.952V81.255A6.044,6.044,0,0,0,6.052,93H97.236a6.044,6.044,0,0,0,2.017-11.744ZM36.446,4.03h50.7V36.273h-50.7l-7.97-16.121Zm48.12,65.061,5.134,1.56a7.731,7.731,0,0,1,5.519,7.438v2.82H55.436a8.353,8.353,0,0,1,7.707-6.046h8.042a8.85,8.85,0,0,0,6.3-2.605l4.5-4.49s2.468,1.286,2.59,1.323Zm-76.5-18.4a2.138,2.138,0,0,1,1.977-2.222c2.776,0,4.377,2.071,6.181,4.779,1.192,1.79,2.318,3.48,4.249,3.48H26.5L25.531,57.8a2.014,2.014,0,0,0,.154,2.845,2.059,2.059,0,0,0,2.849-.154s7.95-8.509,8.149-8.7a10.627,10.627,0,0,1,11.631-1.745l.864.455-2.433,2.43a2.017,2.017,0,0,0,2.854,2.85l3.315-3.311,3.925,2.067L54.41,56.957a2.017,2.017,0,0,0,2.854,2.85L60.575,56.5l4.017,2.115-3.333,3.6a2.016,2.016,0,0,0,2.961,2.738l4.067-4.388L78.239,65.8l-3.611,3.608a4.842,4.842,0,0,1-3.443,1.425H63.144A12.356,12.356,0,0,0,51.278,80.909H36.36A13.134,13.134,0,0,0,24.81,69.9c-1.3-2.761-5.359-8.482-16.74-9.091V50.689h0Zm0,14.158c11.262.685,13.252,7.047,13.374,7.482A1.963,1.963,0,0,0,23.4,73.856a9.093,9.093,0,0,1,8.853,7.053H19.01A13.137,13.137,0,0,0,8.069,69.98Zm0,9.235A9.1,9.1,0,0,1,14.9,80.909H8.069ZM97.236,88.97H6.052a2.015,2.015,0,1,1,0-4.031H97.236a2.015,2.015,0,1,1,0,4.031Zm0,0" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6074" data-name="Path 6074" d="M202.546,291.758a2.009,2.009,0,0,0,1.425-3.434,2.053,2.053,0,0,0-2.853,0,2.009,2.009,0,0,0,1.427,3.434Zm0,0" transform="translate(-160.08 -229.699)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6075" data-name="Path 6075" d="M240.522,311.715a2,2,0,0,0,1.426-3.429,2.036,2.036,0,0,0-2.853,0,2,2,0,0,0,1.426,3.429Zm0,0" transform="translate(-190.391 -245.629)" fill="url(#linear-gradient)"/>
+                                      </svg>
+                                </div>
+                                <div class="col-lg-8 col-md-8"> 
+                                    <h4 style="font-weight: bold; font-size: 20px; padding-top: 15px;">LEGIT CHECK โดย<br>ผู้เชี่ยวชาญจากรัชช<br></h4>
+                                    <p style="font-size: 16px; margin-top: -8px;">เช็คจนแน่ใจว่าของแท้ 100%</p>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>   
                 </div>
                 <div class="col-lg-4 col-md-4 p-1">
-                    <div class="card overflow-hidden" style="height: 133px;">
+                    <div class="card overflow-hidden" style="height: 150px; width: 100%;">
                         <div class="card-body">
                             <div class="card-block clearfix">
-                                <div class="media">...</div>
+                                <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <svg id="Group_2606" data-name="Group 2606" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85.464" height="75.642" viewBox="0 0 85.464 75.642">
+                                        <defs>
+                                          <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#6b29e0"/>
+                                            <stop offset="1" stop-color="#fe008a"/>
+                                          </linearGradient>
+                                        </defs>
+                                        <path id="Path_6066" data-name="Path 6066" d="M0,37.717C0,58.511,19.173,75.433,42.724,75.433a46.9,46.9,0,0,0,22.033-5.408A24.858,24.858,0,0,0,76.5,72.781a29.218,29.218,0,0,0,4.082-.28,3.235,3.235,0,0,0,1.291-5.931A14.1,14.1,0,0,1,76.759,60.5a35.034,35.034,0,0,0,8.671-22.783C85.429,16.922,66.257,0,42.706,0S0,16.922,0,37.717Zm4.274,0c0-18.44,17.253-33.442,38.449-33.442s38.448,15,38.448,33.442a30.528,30.528,0,0,1-8.46,20.916,2.155,2.155,0,0,0-.436,2.2,18.987,18.987,0,0,0,5.111,7.676,20.65,20.65,0,0,1-11.514-2.756,2.038,2.038,0,0,0-1.1-.3,2.106,2.106,0,0,0-1.064.279,42.511,42.511,0,0,1-20.986,5.442c-21.2-.017-38.449-15.02-38.449-33.459Zm0,0" fill="url(#linear-gradient)"/>
+                                        <rect id="Rectangle_1958" data-name="Rectangle 1958" width="85.464" height="75.625" transform="translate(0 0.017)" fill="none"/>
+                                        <path id="Path_6067" data-name="Path 6067" d="M153.949,122.955l-16.4,16.311-5.983-6.019a2.134,2.134,0,0,0-3.018,3.018l7.5,7.537a2.127,2.127,0,0,0,3.018,0l17.916-17.811a2.146,2.146,0,0,0-3.035-3.036Zm0,0" transform="translate(-100.026 -95.654)" fill="url(#linear-gradient)"/>
+                                      </svg>
+                                      
+                                </div>
+                                <div class="col-lg-8 col-md-8"> 
+                                    <h4 style="font-weight: bold; font-size: 20px; padding-top: 15px;">LEGIT CHECK โดย<br>ผู้เชี่ยวชาญจากรัชช br></h4>
+                                    <p style="font-size: 16px; margin-top: -8px;">เช็คจนแน่ใจว่าของแท้ 100%</p>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>   
                 </div>
                 <div class="col-lg-4 col-md-4 p-1">
-                    <div class="card overflow-hidden" style="height: 133px;">
+                    <div class="card overflow-hidden" style="height: 150px; width: 100%;">
                         <div class="card-body">
                             <div class="card-block clearfix">
-                                <div class="media">...</div>
+                                <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <svg id="Group_2608" data-name="Group 2608" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96.276" height="96.276" viewBox="0 0 96.276 96.276">
+                                        <defs>
+                                          <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#6b29e0"/>
+                                            <stop offset="1" stop-color="#fe008a"/>
+                                          </linearGradient>
+                                        </defs>
+                                        <rect id="Rectangle_1960" data-name="Rectangle 1960" width="18.634" height="3.106" transform="translate(49.691 86.959)" fill="url(#linear-gradient)"/>
+                                        <rect id="Rectangle_1961" data-name="Rectangle 1961" width="3.106" height="46.585" transform="translate(37.268 27.951)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6076" data-name="Path 6076" d="M93.17,31.057H86.959V7.764A7.773,7.773,0,0,0,79.195,0H38.821a7.773,7.773,0,0,0-7.764,7.764v7.764H6.211V32.61H0V79.195H31.057v9.317a7.773,7.773,0,0,0,7.764,7.764H79.195a7.773,7.773,0,0,0,7.764-7.764V65.219H93.17a3.109,3.109,0,0,0,3.106-3.106V34.162A3.109,3.109,0,0,0,93.17,31.057Zm0,6.211H49.691V34.162H93.17Zm-43.48,3.106H93.17V43.48H49.691ZM38.821,3.106H79.195a4.664,4.664,0,0,1,4.659,4.659v4.659H34.162V7.764A4.664,4.664,0,0,1,38.821,3.106ZM31.057,48.424a4.606,4.606,0,0,0-1.553-.286V45.032H26.4v3.106a4.659,4.659,0,1,0,0,9.317H29.5a1.553,1.553,0,1,1,0,3.106H26.4a1.554,1.554,0,0,1-1.553-1.553H21.74A4.664,4.664,0,0,0,26.4,63.666v3.106H29.5V63.666a4.606,4.606,0,0,0,1.553-.286v6.11a13.977,13.977,0,1,1,0-27.176Zm0,6.211a4.606,4.606,0,0,0-1.553-.286H26.4a1.553,1.553,0,0,1,0-3.106H29.5A1.554,1.554,0,0,1,31.057,52.8Zm-21.74-36h21.74V32.61H9.317ZM3.106,76.089V35.715H31.057v3.4a17.081,17.081,0,1,0,0,33.576v3.4ZM79.195,93.17H38.821a4.664,4.664,0,0,1-4.659-4.659V83.853H83.853v4.659A4.664,4.664,0,0,1,79.195,93.17Zm4.659-12.423H34.162V15.528H83.853V31.057H49.691a3.109,3.109,0,0,0-3.106,3.106V62.114a3.109,3.109,0,0,0,3.106,3.106H83.853ZM49.691,62.114V46.585H93.17l0,15.528Z" fill="url(#linear-gradient)"/>
+                                        <rect id="Rectangle_1962" data-name="Rectangle 1962" width="7.764" height="3.106" transform="translate(52.797 55.902)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6077" data-name="Path 6077" d="M35.106,203.106h3.106V200H32v6.211h3.106Z" transform="translate(-25.789 -161.179)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6078" data-name="Path 6078" d="M64,112v6.211h3.106v-3.106h3.106V112Z" transform="translate(-51.577 -90.26)" fill="url(#linear-gradient)"/>
+                                        <path id="Path_6079" data-name="Path 6079" d="M35.106,344H32v6.211h6.211v-3.106H35.106Z" transform="translate(-25.789 -277.228)" fill="url(#linear-gradient)"/>
+                                        <rect id="Rectangle_1963" data-name="Rectangle 1963" width="3.106" height="3.106" transform="translate(86.959 55.902)" fill="url(#linear-gradient)"/>
+                                        <rect id="Rectangle_1964" data-name="Rectangle 1964" width="3.106" height="3.106" transform="translate(80.748 55.902)" fill="url(#linear-gradient)"/>
+                                        <rect id="Rectangle_1965" data-name="Rectangle 1965" width="3.106" height="3.106" transform="translate(37.268 21.74)" fill="url(#linear-gradient)"/>
+                                      </svg>
+                                      
+                                      
+                                </div>
+                                <div class="col-lg-8 col-md-8"> 
+                                    <h4 style="font-weight: bold; font-size: 20px; padding-top: 15px;">ซื้อขายแบบสบายใจ<br>จ่ายเงินได้หลายวิธี<br></h4>
+                                    <p style="font-size: 16px; margin-top: -8px;">ทั้งแบบ Paypal และโอนเงินผ่านบัญชี</p>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>   
@@ -99,44 +195,61 @@
 
     <!--Jordan-->
 
-    <div style="width: 1440px; height: 692px; background-color:seagreen; text-align: center;">
-        <h1 class="display-4  font-weight-bold">Roman Empire CFC</h1>
-        <p class="lead">ข่าวเชลซีเพื่อแฟนเชลซี</p>
-        <button class="btn btn-outline-success my-2 my-sm-0" style="width: 120px; height: 30px; line-height:0.5rem; color: white; font-size: 14px; background-color: #8c4bff;" type="submit">ค้นหา</button>
-        
-
+    <div>
+        <div class="container-fluid">
+        <div class="row">
+       <div class="col-12 col-lg-12 col-md-12 col-sm-12"></div>
+          <div style="background-image: url(assets/image/Image2.jpg); width: 100%;
+          height: 692px;  background-size: cover; background-position: center; text-align: center;">
+           <p class="lead font-weight-bold" style="margin-top: 20px; color:white; font-size: 24px ; ;">Air Jordan 1</p>
+            <h1 class="display-4  font-weight-bold" style="color:white; line-height: 45px; font-size: 48px;">OFF-WHITE X AIR JORDAN 1 RETRO<br>HIGH OG ‘UNC’ SAMPLE</h1>
+           
+      <button class="btn btn-outline-success my-2 my-sm-0 " style="width: 190px; height: 40px; line-height:0.5rem; color: white; font-size: 14px; background: rgba(0,0,0,0.5);; border : 2px solid #FFFFFF;" type="submit">ซื้อเลย</button>
+          </div>
+        </div>
     </div>
+  </div>
 
     <!--*4-->
     <div>
         <div class="row">
             <div class="col-lg-6 col-md-6 p-1">
                 <div class="card-4">
-                    <div class="card-body">
-                    
+                    <div class="card-body" style="background-image: url(assets/image/Image3.jpg); width: 100%;
+                    height: 100%;  background-size: cover; background-position: center; text-align: center;">
+                    <div>
+                        <h1 class="display-4  font-weight-bold" style="color:white; line-height: 45px; font-size: 48px;">ACRONYM<br>X<br>AIR PRESTO MID<br>‘MULTICOLOR’                       </h1>
+                        <button class="btn btn-outline-success my-2 my-sm-0 " style="width: 190px; height: 40px; line-height:0.5rem; color: white; font-size: 14px; background: rgba(0,0,0,0.5);; border : 2px solid #FFFFFF;" type="submit">ดูเพิ่มเติม</button>
+                    </div>
                     </div>
                   </div>
             </div>
             <div class="col-lg-6 col-md-6 p-1">
                 <div class="card-4">
-                    <div class="card-body">
+                    <div class="card-body" style="background-image: url(assets/image/Image4.jpg); width: 100%;
+                    height: 100%;  background-size: cover; background-position: center; text-align: center;">
 
                     </div>
-                </div>
+                  </div>
             </div>
             <div class="col-lg-6 col-md-6 p-1">
                 <div class="card-4">
-                    <div class="card-body">
-                    
+                    <div class="card-body" style="background-image: url(assets/image/Image5.jpg); width: 100%;
+                    height: 100%;  background-size: cover; background-position: center; text-align: center;">
+
                     </div>
                   </div>
             </div>
-            <div class="col-lg-6 col-md-6 p-1" >
+            <div class="col-lg-6 col-md-6 p-1">
                 <div class="card-4">
-                    <div class="card-body">
-                    
+                    <div class="card-body" style="background-image: url(assets/image/Image6.jpg); width: 100%;
+                    height: 100%;  background-size: cover; background-position: center; text-align: center;">
+                    <div>
+
                     </div>
-                </div>
+
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
